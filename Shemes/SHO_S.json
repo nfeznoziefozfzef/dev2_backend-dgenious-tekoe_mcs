@@ -1,0 +1,26 @@
+{
+  "requires" : [ "graph.tcpos", "scheme.SHO_S" ],
+  "grants" : [ "auth.scheme.SHO_S" ],
+  "name" : "Stats par jour par établissement",
+  "comment" : "Ce schéma donne des statistiques par établissement et par jour",
+  "translations" : {
+    "DE" : {
+      "name" : "Tagesstatistik",
+      "comment" : "Dieses Schema zeigt die Statistik pro Tag und Shop"
+    },
+    "EN" : {
+      "name" : "Shop stats",
+      "comment" : "List various key numbers per shop and per day"
+    },
+    "FR" : {
+      "name" : "Stats par jour par établissement",
+      "comment" : "Ce schéma donne des statistiques par établissement et par jour"
+    }
+  },
+  "visible" : true,
+  "graph" : "tcpos",
+  "scheme" : "SHO_S",
+  "entry_table" : "SHO_S",
+  "company" : "tekoe_mcs",
+  "row_count" : 1
+}

@@ -1,0 +1,18 @@
+{
+  "username" : "dgenious_support",
+  "company" : "tekoe_mcs",
+  "name" : "dgenious support",
+  "language" : "EN",
+  "email" : "support@dgenious.com",
+  "permission_groups" : [ "shop_user" ],
+  "profile_keys" : {
+    "tcpos.SWA" : {
+      "all_values" : true
+    },
+    "tcpos.SHO" : {
+      "all_values" : true
+    }
+  },
+  "user_id" : -1674560825,
+  "editable" : true
+}

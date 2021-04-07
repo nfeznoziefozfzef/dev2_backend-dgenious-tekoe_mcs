@@ -1,0 +1,20 @@
+{
+  "username" : "egirod",
+  "company" : "tekoe_mcs",
+  "name" : "Emmanuel Girod",
+  "language" : "EN",
+  "email" : "e.girod@dgenious.com",
+  "visible" : true,
+  "login" : true,
+  "permission_groups" : [ "shop_manager", "hq_manager", "sys_admin", "shop_user" ],
+  "profile_keys" : {
+    "tcpos.SWA" : {
+      "all_values" : true
+    },
+    "tcpos.SHO" : {
+      "all_values" : true
+    }
+  },
+  "user_id" : -1100312930,
+  "editable" : true
+}

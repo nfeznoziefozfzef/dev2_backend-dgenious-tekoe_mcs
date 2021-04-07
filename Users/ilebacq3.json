@@ -1,0 +1,19 @@
+{
+  "username" : "ilebacq3",
+  "company" : "tekoe_mcs",
+  "name" : "isa lebacq",
+  "language" : "FR",
+  "email" : "i.lebacq@dgenious.com",
+  "permission_groups" : [ "hq_manager" ],
+  "profile_keys" : {
+    "tcpos.SWA" : {
+      "all_values" : true
+    },
+    "tcpos.SHO" : {
+      "values" : [ "Bonn" ],
+      "all_values" : true
+    }
+  },
+  "user_id" : -959064581,
+  "editable" : true
+}

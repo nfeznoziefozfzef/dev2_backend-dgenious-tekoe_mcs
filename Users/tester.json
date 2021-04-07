@@ -1,0 +1,18 @@
+{
+  "username" : "tester",
+  "company" : "tekoe_mcs",
+  "name" : "testername testersurname",
+  "language" : "EN",
+  "email" : "e.jonuzoski@dgenious.com",
+  "permission_groups" : [ "shop_manager", "hq_manager", "sys_admin", "shop_user" ],
+  "profile_keys" : {
+    "tcpos.SWA" : {
+      "all_values" : true
+    },
+    "tcpos.SHO" : {
+      "all_values" : true
+    }
+  },
+  "user_id" : -657295391,
+  "editable" : true
+}

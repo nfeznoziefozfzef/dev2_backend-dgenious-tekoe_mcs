@@ -1,0 +1,20 @@
+{
+  "username" : "alebacq",
+  "company" : "tekoe_mcs",
+  "name" : "Antoine Lebacq",
+  "language" : "EN",
+  "email" : "a.lebacq@dgenious.com",
+  "visible" : true,
+  "permission_groups" : [ "sys_admin" ],
+  "profile_keys" : {
+    "tcpos.SWA" : {
+      "all_values" : true
+    },
+    "tcpos.SHO" : {
+      "values" : [ "Lisboa", "Madrid", "Lyon" ],
+      "all_values" : true
+    }
+  },
+  "user_id" : -1055624925,
+  "editable" : true
+}

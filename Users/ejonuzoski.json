@@ -1,0 +1,21 @@
+{
+  "username" : "ejonuzoski",
+  "company" : "tekoe_mcs",
+  "name" : "Edvin Jonuzoski",
+  "language" : "EN",
+  "email" : "e.jonuzoski@dgenious.com",
+  "phone" : "+41 78 219 87 08",
+  "visible" : true,
+  "login" : true,
+  "permission_groups" : [ "shop_manager", "hq_manager", "sys_admin", "shop_user" ],
+  "profile_keys" : {
+    "tcpos.SWA" : {
+      "all_values" : true
+    },
+    "tcpos.SHO" : {
+      "all_values" : true
+    }
+  },
+  "user_id" : 1309904819,
+  "editable" : true
+}

@@ -1,0 +1,25 @@
+{
+  "requires" : [ "scheme.TIL", "graph.tcpos" ],
+  "grants" : [ "auth.scheme.TIL" ],
+  "name" : "Caisses",
+  "comment" : "Ce schéma donne la liste des caisses",
+  "translations" : {
+    "DE" : {
+      "name" : "Kassen",
+      "comment" : "Liste aller Kassen"
+    },
+    "EN" : {
+      "name" : "Terminals",
+      "comment" : "Lists all POS terminals"
+    },
+    "FR" : {
+      "name" : "Caisses",
+      "comment" : "Ce schéma donne la liste des caisses"
+    }
+  },
+  "visible" : false,
+  "graph" : "tcpos",
+  "scheme" : "TIL",
+  "entry_table" : "TIL",
+  "company" : "tekoe_mcs"
+}

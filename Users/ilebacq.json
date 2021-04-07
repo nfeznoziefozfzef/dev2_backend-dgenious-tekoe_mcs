@@ -1,0 +1,19 @@
+{
+  "username" : "ilebacq",
+  "company" : "tekoe_mcs",
+  "name" : "Isabel Lebacq",
+  "language" : "FR",
+  "email" : "i.lebacq@dgenious.com",
+  "phone" : "+41 78 907 54 56",
+  "permission_groups" : [ "shop_manager", "hq_manager", "sys_admin", "shop_user" ],
+  "profile_keys" : {
+    "tcpos.SWA" : {
+      "all_values" : true
+    },
+    "tcpos.SHO" : {
+      "all_values" : true
+    }
+  },
+  "user_id" : 1403835432,
+  "editable" : true
+}

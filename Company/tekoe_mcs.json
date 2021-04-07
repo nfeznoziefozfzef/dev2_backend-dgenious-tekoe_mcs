@@ -1,0 +1,12 @@
+{
+  "name" : "tcpos (farm)",
+  "languages" : [ "FR", "DE", "EN" ],
+  "grants" : [ "graph.tcpos", "graph.tcpos_demo" ],
+  "enabled" : true,
+  "production" : true,
+  "company" : "tekoe_mcs",
+  "admin_profile_restrictions" : {
+    "template_sharer" : true
+  },
+  "graphs" : [ "tcpos" ]
+}
