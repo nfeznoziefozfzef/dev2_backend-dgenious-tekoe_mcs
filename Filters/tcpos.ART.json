@@ -1,5 +1,5 @@
 {
-  "name" : "Articl   e",
+  "name" : "Article",
   "category" : "Articles",
   "mappings" : {
     "ART" : "tcpos.ART.DESCRIPTION",

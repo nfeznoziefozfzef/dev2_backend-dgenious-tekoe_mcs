@@ -1,22 +1,8 @@
 {
-  "translations" : {
-    "DE" : {
-      "name" : "Artikel",
-      "category" : "Artikel"
-    },
-    "EN" : {
-      "name" : "Article",
-      "category" : "Articles"
-    },
-    "FR" : {
-      "name" : "Article",
-      "category" : "Articles"
-    }
-  },
   "name" : "Article",
   "category" : "Articles",
   "properties" : {
-    "width" : 250.0
+    "width" : 240.0
   },
   "requires" : "graph.tcpos;auth.scheme.ART | auth.scheme.TRA_ART_DIS | auth.scheme.TRA_ART_PRO | auth.scheme.TRA_ART | _SYS_",
   "sql" : "{{ART}}.`DESCRIPTION`",

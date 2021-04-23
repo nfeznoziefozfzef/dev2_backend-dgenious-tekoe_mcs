@@ -1,0 +1,17 @@
+{
+  "actions" : [ {
+    "command_line" : [ "java", "-jar", "/opt/dgenious/tomcat8/dbcopy/dbcopy.jar", "-source", "${dbcopy_source}", "-keys", "${dbcopy_keys}" ],
+    "name" : "dbcopy",
+    "type" : "COMMAND_LINE"
+  } ],
+  "company" : "tekoe_mcs",
+  "db_log_level" : "INFO",
+  "job" : 1600222276,
+  "name" : "dbcopy general maintenance",
+  "schedule" : [ {
+    "frequency" : "DAILY",
+    "include_weekend" : true,
+    "randomize" : "1 hour",
+    "time" : "02:00:00"
+  } ]
+}
