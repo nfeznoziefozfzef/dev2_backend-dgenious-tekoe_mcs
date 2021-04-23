@@ -1,0 +1,12 @@
+{
+  "name" : "Reporting journalier",
+  "modified" : "2019-04-11 09:19:54",
+  "important" : false,
+  "username" : "ejonuzoski",
+  "document_id" : -1959066557,
+  "type" : "FORM",
+  "form" : {"report":{"properties":{"css":{"header":{"text-transform":"uppercase"}}}},"custom":{"template":"","view":"","node_module":""} },
+  "company" : "tekoe_mcs",
+  "translatable" : true,
+  "folder_id" : 1935916836
+}

@@ -1,0 +1,13 @@
+{
+  "name" : "New report 12 [Edvin Jonuzoski]",
+  "modified" : "2020-01-10 18:04:18",
+  "requires" : [ "scheme.OPE", "graph.tcpos" ],
+  "important" : false,
+  "username" : "tester",
+  "document_id" : -1384755805,
+  "type" : "REPORT",
+  "report" : {"properties":{"css":{"header":{"text-transform":"uppercase"}},"active_step":"s0"},"steps":[{"alias":"s0","columns":[{"alias":"s0_c0","name":"Valid operator","expression":{"path":"tcpos.OPE.ENABLED","type":"BOOLEAN","resettable":false},"resettable":false},{"alias":"s0_c1","name":"Operator code","expression":{"path":"tcpos.OPE.CODE","type":"TEXT","resettable":false},"resettable":false}],"grouping":false,"name":"Operators","properties":{"scheme":"Operators"},"chart":false,"scheme":"OPE"}] },
+  "company" : "tekoe_mcs",
+  "translatable" : false,
+  "folder_id" : -20907674
+}

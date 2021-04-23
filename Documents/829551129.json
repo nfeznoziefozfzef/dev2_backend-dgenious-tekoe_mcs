@@ -1,0 +1,13 @@
+{
+  "name" : "Copy of New report 3 [Edvin Jonuzoski]",
+  "modified" : "2019-12-13 16:18:24",
+  "requires" : [ "scheme.ART", "graph.tcpos" ],
+  "important" : false,
+  "username" : "tester",
+  "document_id" : 829551129,
+  "type" : "REPORT",
+  "report" : {"properties":{"css":{"header":{"text-transform":"uppercase"}},"active_step":"s0"},"steps":[{"alias":"s0","columns":[{"alias":"s0_c0","name":"Article","expression":{"path":"tcpos.ART.DESCRIPTION","type":"TEXT","resettable":false},"properties":{"width":250.0},"drilldown":{"bindings":[{"comparator":"IS_EQUAL","source_column":"s0_c0","target_filter":"tcpos.ART"}],"active":true,"behaviour":"PREVIEW+DOCUMENT","target_step":"s0","filter_step":"s0"},"resettable":false},{"alias":"s0_c1","name":"Article Code","expression":{"path":"tcpos.ART.CODE","type":"TEXT","resettable":false},"resettable":false}],"grouping":false,"name":"Articles","properties":{"scheme":"Articles"},"chart":false,"scheme":"ART"}] },
+  "company" : "tekoe_mcs",
+  "translatable" : false,
+  "folder_id" : -20907674
+}

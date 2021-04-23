@@ -1,0 +1,13 @@
+{
+  "name" : "New report 1",
+  "modified" : "2019-04-11 09:19:54",
+  "requires" : [ "graph.tcpos", "scheme.HIST_STO" ],
+  "important" : false,
+  "username" : "tester",
+  "document_id" : -480507606,
+  "type" : "REPORT",
+  "report" : {"properties":{"css":{"header":{"text-transform":"uppercase"}},"active_step":"s0"},"steps":[{"alias":"s0","columns":[{"alias":"s0_c0","name":"Article","expression":{"path":"tcpos.SART.DESCRIPTION","type":"TEXT","resettable":false},"properties":{"width":200.0},"resettable":false}],"grouping":false,"name":"Historical stocks","properties":{"scheme":"Historical stocks"},"chart":false,"scheme":"HIST_STO"}] },
+  "company" : "tekoe_mcs",
+  "translatable" : false,
+  "folder_id" : -2116220712
+}

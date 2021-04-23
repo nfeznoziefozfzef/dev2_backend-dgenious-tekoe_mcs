@@ -1,0 +1,13 @@
+{
+  "name" : "bug indicator not showing",
+  "modified" : "2020-06-15 20:17:36",
+  "requires" : [ "graph.tcpos", "scheme.TRA_ART" ],
+  "important" : false,
+  "username" : "alebacq",
+  "document_id" : 1098362290,
+  "type" : "REPORT",
+  "report" : {"cross_scheme_filters":[{"expression":{"path":"tcpos.bookkeeping_date","type":"DATE"},"filter":{"items":[{"comparator":"IN_RANGE","expression":{"type":"DATE","value":"2019-05-01;2019-05-31"},"display":"Mai.2019","properties":{"start":"01.05.2019","stop":"31.05.2019","option":"months"}}],"and_or":"AND"},"display":"Date"}],"properties":{"css":{"header":{"text-transform":"uppercase"}},"active_step":"s1"},"steps":[{"alias":"s0","steps":[{"alias":"s1","columns":[{"alias":"s1_c0","name":"Shop","grouping":"GROUP","expression":{"path":"source.s0_c1","type":"TEXT","resettable":false},"properties":{"width":200.0,"grouping":"COUNT"},"resettable":false},{"alias":"s1_c1","name":"Line amount","grouping":"SUM","expression":{"path":"source.s0_c2","type":"DECIMAL","resettable":false},"properties":{"width":162.0,"format":"0,0.00","grouping":"SUM","format_unit":"CHF","format_pos":"prefix","format_dec_length":2,"format_mand_decimals":true,"format_type":"unit"},"resettable":false}],"orderings":[{"column":"s1_c1","order":"DESCENDING"}],"grouping":true,"name":"Etape 2","properties":{"grouping_collapsed":true,"chart":{"type":"indicator","values":[{"row_index":0,"styles":{},"alias":"s1_c0","value_option":"DATA"}]}},"chart":true}],"columns":[{"alias":"s0_c1","name":"Shop","expression":{"path":"tcpos.SHO.DESCRIPTION","type":"TEXT","resettable":false},"properties":{"width":200.0,"grouping":"COUNT"},"resettable":false},{"alias":"s0_c2","name":"Line amount","expression":{"path":"tcpos.TRA_ART.AMOUNT","type":"DECIMAL","resettable":false},"properties":{"format":"0,0.00","grouping":"SUM","format_unit":"CHF","format_pos":"prefix","format_dec_length":2,"format_mand_decimals":true,"format_type":"unit"},"resettable":false},{"alias":"s0_c4","name":"Date","expression":{"path":"tcpos.TRA.BOOKKEEPING_DATE","type":"DATE","resettable":false},"resettable":false}],"name":"Ticket lines","properties":{"scheme":"Ticket lines","grouping_collapsed":true},"chart":false,"scheme":"TRA_ART"}] },
+  "company" : "tekoe_mcs",
+  "translatable" : true,
+  "folder_id" : 2061760196
+}

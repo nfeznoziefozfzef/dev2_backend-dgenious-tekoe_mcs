@@ -1,0 +1,13 @@
+{
+  "name" : "Nouveau rapport 3",
+  "modified" : "2020-04-28 10:01:42",
+  "requires" : [ "scheme.TRA_POI", "graph.tcpos" ],
+  "important" : false,
+  "username" : "alebacq",
+  "document_id" : -986996516,
+  "type" : "REPORT",
+  "report" : {"properties":{"css":{"header":{"text-transform":"uppercase"}},"active_step":"s2"},"steps":[{"alias":"s0","steps":[{"alias":"s1","columns":[{"alias":"s1_c0","name":"Carte client","grouping":"GROUP","expression":{"path":"source.s0_c0","type":"TEXT","resettable":false},"resettable":false},{"alias":"s1_c1","name":"UID client","grouping":"COUNT","expression":{"path":"source.s0_c1","type":"ID","resettable":false},"resettable":false}],"grouping":true,"name":"Etape 2","chart":false},{"alias":"s2","columns":[{"alias":"s2_c0","name":"Carte client","grouping":"GROUP","expression":{"path":"source.s0_c0","type":"TEXT","resettable":false},"resettable":false},{"alias":"s2_c1","name":"UID client","grouping":"COUNT","expression":{"path":"source.s0_c1","type":"ID","resettable":false},"resettable":false}],"grouping":true,"name":"Etape 3","chart":false}],"columns":[{"alias":"s0_c0","name":"Carte client","expression":{"path":"tcpos.CUS.CARD_NUM","type":"TEXT","resettable":false},"resettable":false},{"alias":"s0_c1","name":"UID client","expression":{"path":"tcpos.CUS.CUSTOMER_ID","type":"ID","resettable":false},"resettable":false}],"grouping":false,"name":"Tickets - mutations des points","properties":{"scheme":"Tickets - mutations des points"},"chart":false,"scheme":"TRA_POI"}] },
+  "company" : "tekoe_mcs",
+  "translatable" : false,
+  "folder_id" : 2061760196
+}

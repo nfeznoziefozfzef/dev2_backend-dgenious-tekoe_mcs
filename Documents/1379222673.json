@@ -1,0 +1,13 @@
+{
+  "name" : "test formula  [letzte_woche] [monat] ",
+  "modified" : "2020-10-19 08:30:27",
+  "requires" : [ "scheme.TRA", "graph.tcpos" ],
+  "important" : false,
+  "username" : "ilebacq",
+  "document_id" : 1379222673,
+  "type" : "REPORT",
+  "report" : {"properties":{"css":{"header":{"text-transform":"uppercase"}},"active_step":"s1"},"steps":[{"alias":"s0","steps":[{"alias":"s1","columns":[{"alias":"s1_c0","name":"Klasse von Monat und Jahr","grouping":"GROUP","expression":{"path":"shared.month_class","parameters":[{"path":"source.s0_c0","type":"DATE","resettable":false}],"type":"DATE","resettable":false},"properties":{"format":"MMM YY"},"resettable":false},{"alias":"s1_c1","name":"Shop","grouping":"GROUP","expression":{"path":"source.s0_c1","type":"TEXT","resettable":false},"properties":{"width":200.0},"resettable":false},{"alias":"s1_c2","name":"Ticket Betrag","grouping":"SUM","expression":{"path":"source.s0_c2","type":"DECIMAL","resettable":false},"properties":{"format":"0,0.00","format_unit":"CHF","format_pos":"prefix","format_dec_length":2,"format_mand_decimals":true,"format_type":"unit"},"resettable":false}],"grouping":true,"name":"Etappe 2","chart":false}],"columns":[{"alias":"s0_c0","name":"Datum","expression":{"path":"tcpos.TRA.BOOKKEEPING_DATE","type":"DATE","resettable":false},"resettable":false},{"alias":"s0_c1","name":"Shop","expression":{"path":"tcpos.SHO.DESCRIPTION","type":"TEXT","resettable":false},"properties":{"width":200.0},"resettable":false},{"alias":"s0_c2","name":"Ticket Betrag","expression":{"path":"tcpos.TRA.TOTAL_AMOUNT","type":"DECIMAL","resettable":false},"properties":{"format":"0,0.00","format_unit":"CHF","format_pos":"prefix","format_dec_length":2,"format_mand_decimals":true,"format_type":"unit"},"resettable":false}],"grouping":false,"name":"Tickets","properties":{"scheme":"Tickets"},"chart":false,"scheme":"TRA"}] },
+  "company" : "tekoe_mcs",
+  "translatable" : false,
+  "folder_id" : -1616696340
+}

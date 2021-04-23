@@ -1,0 +1,13 @@
+{
+  "name" : "TAGS in column headers [Lebacq, Isabel]",
+  "modified" : "2019-08-23 10:19:21",
+  "requires" : [ "graph.tcpos", "scheme.TRA_PAY_AGG" ],
+  "important" : false,
+  "username" : "ejonuzoski",
+  "document_id" : -500132406,
+  "type" : "REPORT",
+  "report" : {"properties":{"css":{"header":{"text-transform":"uppercase"}},"active_step":"s0"},"steps":[{"alias":"s0","steps":[{"alias":"s1","columns":[{"alias":"s1_c0","name":"Date","grouping":"GROUP","expression":{"path":"source.s0_c0","type":"DATE","resettable":false},"resettable":false}],"grouping":true,"name":"Step 2","chart":false}],"columns":[{"alias":"s0_c0","name":"Date","expression":{"path":"tcpos.SHO_S.BOOKKEEPING_DATE","type":"DATE","resettable":false},"resettable":false}],"grouping":false,"name":"Statistique de paiement","properties":{"scheme":"Statistique de paiement"},"chart":false,"scheme":"TRA_PAY_AGG"}] },
+  "company" : "tekoe_mcs",
+  "translatable" : false,
+  "folder_id" : -917114191
+}

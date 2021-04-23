@@ -1,0 +1,13 @@
+{
+  "name" : "could make count distinct",
+  "modified" : "2020-12-03 15:47:59",
+  "requires" : [ "scheme.TRA", "graph.tcpos" ],
+  "important" : false,
+  "username" : "alebacq",
+  "document_id" : 167169396,
+  "type" : "REPORT",
+  "report" : {"properties":{"css":{"header":{"text-transform":"uppercase"}},"active_step":"s0"},"steps":[{"alias":"s0","steps":[{"alias":"s1","columns":[{"alias":"s1_c0","name":"UID ticket","grouping":"DISTINCT","expression":{"path":"source.s0_c0","type":"ID","resettable":false},"resettable":false},{"alias":"s1_c1","name":"Ticket Amount","grouping":"SUM","expression":{"path":"source.s0_c1","type":"DECIMAL","resettable":false},"properties":{"width":135.0,"format":"0,0.00","format_unit":"CHF","format_pos":"prefix","format_dec_length":2,"format_mand_decimals":true,"format_type":"unit"},"resettable":false}],"grouping":true,"name":"Step 2","chart":false},{"alias":"s2","columns":[{"alias":"s2_c0","name":"Shop","grouping":"GROUP","expression":{"path":"source.s0_c2","type":"TEXT","resettable":false},"properties":{"width":200.0},"resettable":false},{"alias":"s2_c1","name":"UID ticket","grouping":"DISTINCT","expression":{"path":"source.s0_c0","type":"ID","resettable":false},"resettable":false},{"alias":"s2_c2","name":"Ticket Amount","grouping":"SUM","expression":{"path":"source.s0_c1","type":"DECIMAL","resettable":false},"properties":{"width":143.0,"format":"0,0.00","format_unit":"CHF","format_pos":"prefix","format_dec_length":2,"format_mand_decimals":true,"format_type":"unit"},"resettable":false}],"grouping":true,"name":"Step 3","chart":false}],"columns":[{"alias":"s0_c2","name":"Shop","expression":{"path":"tcpos.SHO.DESCRIPTION","type":"TEXT","resettable":false},"properties":{"width":200.0},"resettable":false},{"alias":"s0_c0","name":"UID ticket","expression":{"path":"tcpos.TRA.TRANSACTION_ID","type":"ID","resettable":false},"resettable":false},{"alias":"s0_c1","name":"Ticket Amount","expression":{"path":"tcpos.TRA.TOTAL_AMOUNT","type":"DECIMAL","resettable":false},"properties":{"format":"0,0.00","format_unit":"CHF","format_pos":"prefix","format_dec_length":2,"format_mand_decimals":true,"format_type":"unit"},"resettable":false},{"alias":"s0_c3","name":"Number of articles","expression":{"path":"tcpos.TRA.ARTICLE_COUNT","type":"DECIMAL","resettable":false},"resettable":false}],"grouping":false,"top":100,"name":"Tickets","properties":{"scheme":"Tickets"},"chart":false,"scheme":"TRA"}] },
+  "company" : "tekoe_mcs",
+  "translatable" : false,
+  "folder_id" : 2061760196
+}

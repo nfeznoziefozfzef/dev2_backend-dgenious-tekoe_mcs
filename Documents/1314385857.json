@@ -1,0 +1,13 @@
+{
+  "name" : "bug count of dates",
+  "modified" : "2019-08-10 17:28:39",
+  "requires" : [ "scheme.TRA", "graph.tcpos" ],
+  "important" : false,
+  "username" : "alebacq",
+  "document_id" : 1314385857,
+  "type" : "REPORT",
+  "report" : {"properties":{"css":{"header":{"text-transform":"uppercase"}},"active_step":"s1"},"steps":[{"alias":"s0","steps":[{"alias":"s1","columns":[{"alias":"s1_c0","name":"UID client","grouping":"GROUP","expression":{"path":"source.s0_c1","type":"ID","resettable":false},"resettable":false},{"alias":"s1_c1","name":"datecount","grouping":"COUNT","expression":{"path":"source.s0_c0","type":"DATE","resettable":false},"resettable":false},{"alias":"s1_c4","name":"Last","grouping":"MAX","expression":{"path":"source.s0_c0","type":"DATE","resettable":false},"properties":{"grouping":"MAX"},"resettable":false},{"alias":"s1_c5","name":"Jours écoulés (Date, Aujourd'hui)","grouping":"GROUP","expression":{"path":"shared.day_difference","parameters":[{"path":"this.s1_c4","type":"DATE","resettable":false},{"path":"shared.today","type":"DATE"}],"type":"INTEGER","resettable":false},"properties":{"format":"0"},"resettable":false}],"orderings":[{"column":"s1_c5","order":"DESCENDING"}],"grouping":true,"name":"Etape 2","chart":false}],"columns":[{"alias":"s0_c0","name":"Date","expression":{"path":"tcpos.TRA.BOOKKEEPING_DATE","type":"DATE","resettable":false},"resettable":false},{"alias":"s0_c1","name":"UID client","expression":{"path":"tcpos.CUS.CUSTOMER_ID","type":"ID","resettable":false},"resettable":false}],"grouping":false,"name":"Tickets","properties":{"scheme":"Tickets"},"chart":false,"scheme":"TRA"}] },
+  "company" : "tekoe_mcs",
+  "translatable" : false,
+  "folder_id" : 2061760196
+}

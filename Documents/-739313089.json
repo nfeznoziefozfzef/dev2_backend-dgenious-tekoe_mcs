@@ -1,0 +1,13 @@
+{
+  "name" : "bug simple step with window functions",
+  "modified" : "2020-06-15 19:57:51",
+  "requires" : [ "scheme.WIT_TRA", "graph.tcpos" ],
+  "important" : false,
+  "username" : "alebacq",
+  "document_id" : -739313089,
+  "type" : "REPORT",
+  "report" : {"properties":{"css":{"header":{"text-transform":"uppercase"}},"active_step":"s0"},"steps":[{"alias":"s0","steps":[{"alias":"s1","columns":[{"alias":"s1_c0","name":"Date comptable","expression":{"path":"source.s0_c0","type":"DATE","resettable":false},"resettable":false},{"alias":"s1_c1","name":"Montant du retrait","expression":{"path":"source.s0_c1","type":"DECIMAL","resettable":false},"resettable":false},{"alias":"s1_c2","name":"window","expression":{"path":"source.s0_c2","type":"DECIMAL","resettable":false},"resettable":false},{"alias":"s1_c3","name":"sum","expression":{"path":"source.s0_c3","type":"DECIMAL","resettable":false},"resettable":false}],"grouping":false,"name":"Etape 2","chart":false}],"columns":[{"alias":"s0_c4","name":"UID retrait/dépôts","expression":{"path":"tcpos.WIT.WITHDRAWAL_ID","type":"ID","resettable":false},"resettable":false},{"alias":"s0_c0","name":"Date comptable","expression":{"path":"tcpos.WIT_TRA.BOOKKEEPING_DATE","type":"DATE","resettable":false},"resettable":false},{"alias":"s0_c1","name":"Montant du retrait","expression":{"path":"tcpos.WIT_TRA.AMOUNT","type":"DECIMAL","resettable":false},"resettable":false},{"alias":"s0_c2","name":"window","expression":{"path":"shared.sum_running","parameters":[{"path":"this.s0_c1","type":"DECIMAL","resettable":false}],"type":"DECIMAL","resettable":true},"resettable":true},{"alias":"s0_c3","name":"sum","expression":{"path":"shared.sum","parameters":[{"path":"this.s0_c2","type":"DECIMAL","resettable":true}],"type":"DECIMAL","resettable":true},"resettable":true}],"orderings":[{"column":"s0_c0","order":"ASCENDING"},{"column":"s0_c1","order":"ASCENDING"}],"grouping":false,"name":"Retraits","properties":{"scheme":"Retraits"},"chart":false,"scheme":"WIT_TRA"}] },
+  "company" : "tekoe_mcs",
+  "translatable" : false,
+  "folder_id" : 2061760196
+}
